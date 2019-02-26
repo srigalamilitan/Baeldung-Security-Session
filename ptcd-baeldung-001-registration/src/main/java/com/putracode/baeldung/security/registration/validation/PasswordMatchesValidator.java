@@ -2,7 +2,6 @@ package com.putracode.baeldung.security.registration.validation;
 
 import com.putracode.baeldung.security.registration.web.dto.UserDto;
 
-import javax.validation.Constraint;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 

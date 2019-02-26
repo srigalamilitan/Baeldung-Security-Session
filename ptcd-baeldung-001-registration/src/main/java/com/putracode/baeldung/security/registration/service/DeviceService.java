@@ -17,7 +17,6 @@ import org.springframework.stereotype.Component;
 import ua_parser.Client;
 import ua_parser.Parser;
 
-import javax.mail.internet.InternetAddress;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.net.InetAddress;

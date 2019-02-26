@@ -2,13 +2,11 @@ package com.putracode.baeldung.security.registration.task;
 
 import com.putracode.baeldung.security.registration.persistence.dao.PasswordResetTokenRepository;
 import com.putracode.baeldung.security.registration.persistence.dao.VerificationTokenRepository;
-import com.putracode.baeldung.security.registration.persistence.model.VerificationToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.xml.crypto.Data;
 import java.time.Instant;
 import java.util.Date;
 

@@ -5,7 +5,6 @@ import com.putracode.baeldung.security.registration.persistence.model.Privilege;
 import com.putracode.baeldung.security.registration.persistence.model.Role;
 import com.putracode.baeldung.security.registration.persistence.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.config.core.GrantedAuthorityDefaults;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -18,7 +17,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.concurrent.ExecutionException;
 
 @Service("userdetailsService")
 @Transactional
