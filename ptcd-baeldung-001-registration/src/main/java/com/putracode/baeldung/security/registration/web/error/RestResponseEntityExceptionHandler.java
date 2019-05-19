@@ -1,6 +1,6 @@
 package com.putracode.baeldung.security.registration.web.error;
 
-import com.putracode.baeldung.security.registration.web.GenericResponse;
+import com.putracode.baeldung.security.registration.web.util.GenericResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.http.HttpHeaders;
